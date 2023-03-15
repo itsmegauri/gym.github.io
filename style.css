@@ -1,0 +1,156 @@
+/*css reset*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('./Images/background.jpg');
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+header {
+    height: 60px;
+}
+
+.line {
+    border: 1px solid #c6f8ff;
+}
+
+.navleft {
+
+    display: inline-block;
+
+    text-align: center;
+    position: absolute;
+    left: 10px;
+
+}
+
+.navleft img {
+    height: 50px;
+
+
+
+
+}
+
+.imgname {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    line-height: 0;
+}
+
+.navmid {
+    display: block;
+    text-align: center;
+    width: 44%;
+    margin: 12px auto;
+
+}
+
+.navmid ul li {
+    display: inline-block;
+
+}
+
+.navmid li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    margin: 10px;
+    color: #ebf4f5;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+
+.navmid li a:hover {
+
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+}
+
+
+
+.navright {
+
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.navb {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-right: 2px;
+    padding: 8px;
+    border: 2px solid white;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 10px;
+}
+
+.navb:hover {
+    border: 1px solid red;
+}
+
+.main {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: block;
+    width: 30%;
+    position: absolute;
+    right: 10px;
+    padding: 30px;
+    margin: 50px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input:hover {
+    border: 2px solid black;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+#formb {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 15px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 5px 120px;
+}
+
+#formb:hover {
+    border-color: red;
+}
